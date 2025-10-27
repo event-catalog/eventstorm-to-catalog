@@ -21,7 +21,7 @@ This project demonstrates how to automatically convert EventStorming output into
 Install the EventCatalog MCP server for Claude Code:
 
 ```bash
-claude mcp add --transport stdio eventcatalog -- npx @eventcatalog/mcp-server https://demo.eventcatalog.dev {EVENTCATALOG_SCALE_LICENSE_KEY}
+claude mcp add --transport stdio eventcatalog -- npx @eventcatalog/mcp-server@latest https://demo.eventcatalog.dev {EVENTCATALOG_SCALE_LICENSE_KEY}
 ```
 
 You can get a free EventCatalog Scale [license key from the EventCatalog website](https://eventcatalog.cloud).
